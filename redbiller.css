@@ -1,0 +1,590 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: nunito;
+}
+
+/* all list */
+ul{
+    list-style-type: none;
+}
+
+
+header{
+    display: flex;
+    padding: 1em 0;
+    /* border: 1px solid red; */
+    background-color: white;
+    /* box-shadow: 0px 0.1px 10px rgb(180, 180, 180); */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.hold3{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+  width: 100%;
+  width: 2em;
+}
+
+.logo sup{
+    font-weight: bold;
+}
+
+.mid-end-nav{
+    display: flex;
+    gap: 10em;
+}
+
+.mid-nav ul{
+    display: flex;
+    list-style: none;
+    gap: 6.5em;
+    position: relative;
+    
+}
+
+.mid-nav a{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top: 0.5em;
+    font-weight: bold;
+}
+
+.end-nav{
+    display: flex;
+    
+}
+
+.btn-1{
+    background: none;
+    border: 1px solid rgb(231, 229, 229);
+    padding: 0.7em 1em;
+    color: #93120f;
+    border-top-left-radius: 10em;
+    border-bottom-left-radius: 10em;
+    border-right: none;
+    font-weight: bold;
+}
+
+.btn-2{
+    padding: 0.7em 1em;
+    background-color: #93120f;
+    color: white;
+    border: none;
+    border-top-right-radius: 10em;
+    border-bottom-right-radius: 10em;
+    font-weight: bold;
+}
+
+/* hover effect */
+.btn-2:hover{
+    background-color: #530504;
+    transition-duration: 1s;
+}
+
+.btn-1:hover{
+    background-color: black;
+    color: white;
+    transition-duration: 1s;
+    /* border: none; */
+}
+
+.mid-nav a:hover{
+    color: rgb(155, 155, 155);
+    transition-duration: 1s;
+}
+
+/* hamburger */
+.hamburger-cont{
+    display: flex;
+    align-items: center;
+    display: none;
+}
+
+.hamburger-cont i{
+    color: black;
+    font-size: 1.6rem;
+    /* display: none; */
+}
+
+/* hero section */
+.hero-section{
+    width: 100%;
+    height: 100vh;
+    padding: 2px 0;
+}
+
+.hold-img-text{
+    display: flex;
+    height: 100%;
+    /* border: 1px solid rgb(28, 0, 128); */
+
+}
+
+.hero-section .image-container{
+    width: 50%; 
+    height: 100%;
+}
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-section .text-btn-container{
+    background-color: #2c3038;
+    /* border: 1px solid green; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.txt-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 60%;
+   
+}
+
+.txt-btn h2{
+    font-size: 3em;
+    color: white;
+}
+
+.txt-btn p{
+    color: white;
+    font-size: 1.2em;
+}
+
+.hero-btn{
+    display: flex;
+}
+
+.btn-sign{
+    background-color: white;
+    padding: 1.2em 1em;
+    color: #93120f;
+    border-top-left-radius: 10em;
+    border-bottom-left-radius: 10em;
+    border-right: none;
+    font-weight: bold;
+    border: none;
+}
+
+.btn-cre{
+    padding: 1.2em 1em;
+    background-color: #93120f;
+    color: white;
+    border: none;
+    border-top-right-radius: 10em;
+    border-bottom-right-radius: 10em;
+    font-weight: bold;
+}
+
+
+/* hello there */
+.hello-cont{
+    padding: 6em;
+    background-color: #f7f9fc;
+    width: 100%;
+}
+
+.cont-2{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.title-text h2{
+    color: #2c3038;
+    font-size: 2.5em;
+}
+
+.title-text p{
+    color: #3c4047;
+    font-size: 1.2em;
+}
+
+
+
+/* airtime section */
+.text-icon{
+    display: flex;
+    padding: 5em 0;
+}
+
+.text{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3em;
+    padding: 1em;
+
+}
+
+.text h2{
+    color: #2c3038;
+    font-size: 2.5em;
+}
+
+.text p{
+    color: #3c4047;
+    font-size: 1.2em;
+}
+
+.cont-list{
+    display: flex;
+    gap: 15em;
+}
+
+.cont-list ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3em;
+    font-weight: bold;
+    color: rgb(85,90,110);
+}
+
+.last-text{
+    font-weight: bold;
+    color: #2c3038;
+    padding-top: 4em;
+    font-size: 1.3em;
+}
+
+.cont-txt-arrow{
+    display: flex;
+    position: relative;
+}
+
+.cont-txt-arrow img{
+    height: 1.8em;
+    position: absolute;
+    left: 23em;
+    top: 5.3em;
+}
+
+.cont-list img{
+    height: 1.7em;
+    padding: 0.4em;
+    background-color: #e5f5f1;
+    border-radius: 50%;
+}
+
+.icon{
+    width: 40%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    /* padding: 3em; */
+}
+
+.icon img{
+    width: 100%;
+    object-fit: cover;
+
+}
+
+
+
+
+
+/* betting wallet section */
+.betting-section{
+    background-color: #f7f9fc;
+    padding: 2em 0;
+}
+
+.hold-2{
+    display: flex;
+}
+
+.imgs-cont{
+    width: 100%;
+    padding: 0 0 9em 0;
+    /* border: 1px solid ; */
+    position: relative;
+}
+
+.pic1{
+    position: absolute;
+    top: 6em;
+    left: 10em;
+}
+
+.pic2{
+    position: absolute;
+    top: 9em;
+    left: 15em;
+}
+
+.pic3{
+    position: absolute;
+    top: 4em;
+    left: 25em;
+}
+
+.pic4{
+    position: absolute;
+    top: 1em;
+    left: 30em;
+}
+
+.pic5{
+    position: absolute;
+    top: 3em;
+    left: 18em;
+}
+
+.bet-text{
+    display: flex;
+    /* border: red 1px solid; */
+}
+
+.bet-text p{
+    color: rgb(85,90,110);
+}
+
+.tic-icon{
+    height: 1.7em;
+    padding: 0.4em;
+    background-color: #e5f5f1;
+    border-radius: 50%;
+}
+
+.tr{
+    display: flex;
+    gap: 1em;
+}
+
+.betting-list-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.betting-list-cont li{
+    color: rgb(85,90,110);
+    font-weight: bold;
+}
+
+
+
+/* card section */
+
+.card-img img{
+    object-fit: cover;
+    width: 100%;
+    height: 20rem;
+}
+
+.card-cont{
+    /* margin: 0 auto; */
+}
+
+.card-txt{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 36px;
+}
+
+.card-txt h2{
+    color: #2c3038;
+    font-size: 1.5em;
+}
+
+.card-txt p{
+    color: #2c3038;
+    font-size: 0.9em;
+}
+
+.card-txt a{
+    text-decoration: none;
+    color: #93120F;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.card-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card-btn{
+    display: flex;
+    justify-content: space-between;
+    /* border-top: 1px solid #bbbbbb; */
+    /* padding: 1em 0 0 0; */
+    align-items: center;
+    padding: 0 36px;
+}
+
+/* .card-line{
+    background-color: #bbbbbb;
+    height: 0.1em;
+} */
+
+.three-cards{
+    display: flex;
+    gap: 1.3em;
+}
+
+.card-section{
+    padding: 7em 0;
+}
+
+.card-btn button{
+    padding: 0.4em 1.3em;
+    border-radius: 1em;
+    border: none;
+    background-color: #D2E9ED;
+    color: #2FABBF;
+    font-weight: bold;
+}
+
+.btn-card{
+    background-color: #FBEAEC;
+    padding: 0.4em 1.3em;
+    border-radius: 1em;
+    border: none;
+    font-weight: bold;
+}
+
+.card-btn p{
+    font-size: 0.8em;
+    color: #9d9d9e;
+}
+
+.card1{
+    box-shadow: 0.02em 0.02em 0.2em rgb(230, 230, 230);
+    border-radius: 0.2em;
+    transition-duration: 0.2s;
+    padding: 0 0 1em 0;
+    width: 100%;
+}
+
+
+.card1:hover{
+    box-shadow: .2em .2em 1em rgb(230, 230, 230);
+    transform: translateY(-0.5rem);
+}
+
+
+
+
+/* footer */
+.footer-section{
+    background-color: #192D35;
+}
+
+.top-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-footer{
+    display: flex;
+}
+
+.below-logo-footer{
+    color: #ABC0C3;
+}
+
+.logo-footer img{
+    /* width: 100%; */
+    height: 3rem;
+}
+
+.logo-footer h3{
+    color: white;
+}
+
+.logo-footer sup{
+    color: white;
+    font-weight: bold;
+}
+
+.in-right-footer{
+    display: flex;
+    gap: 5rem;
+}
+
+.top-footer{
+    padding: 8rem 0;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.footer-list h3{
+    color: white;
+}
+
+.footer-list li{
+    color: #ABC0C3;
+    font-weight: bold;
+}
+
+.left-bottom p{
+    color: white;
+}
+
+.bottom-footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #525252;
+    padding: 1rem 0;
+}
+
+.bottom-footer p{
+    font-size: 0.9rem;
+}
+
+.footer-icons{
+    display: flex;
+    gap: 1.8rem;
+}
+
+.fa-brands{
+    color: white;
+}
+
+.fa-brands:hover{
+    color: rgb(190, 190, 190);
+    transition-duration: .5s;
+}
+
+.ggts{
+    white-space: none;
+}

@@ -1,0 +1,89 @@
+@media (max-width: 1068px) {
+    .container {
+        width: 87%;
+    }
+
+    .hamburger-cont{
+        display: contents;
+    }
+    
+    .hamburger-cont i{
+        display: contents;
+    }
+
+    .mid-nav{
+        display: none;
+    }
+
+    .end-nav{
+        display: none;
+    }
+
+    .hold-img-text {
+        flex-direction: column;
+        
+    }
+
+    .hero-section .image-container, .hero-section .text-btn-container {
+        width: 100%;
+    }
+
+    .text-btn-container{
+        padding: 0 0 5em 0;
+    }
+
+    /* airtime section */
+
+    .text-icon{
+        flex-direction: column;
+        
+    }
+
+    .text, .icon{
+        width: 100%;
+    }
+
+    /* betting section */
+    .hold-2{
+        flex-direction: column;
+    }
+    
+    .imgs-cont{
+        width: 100%;
+        /* border: 1px solid; */
+    }
+
+    .bet-text{
+        width: 100%;
+    }
+
+    /* card section */
+    .three-cards{
+        flex-direction: column;
+    }
+
+    /* footer */
+    .fotter-hold2{
+        flex-direction: column;
+    }
+
+    .top-footer{
+        flex-direction: column;
+        padding: 2rem 0;
+    }
+
+    .in-right-footer{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .footer-list{
+        gap: 0.1rem;
+    }
+
+    .bottom-footer{
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+}
