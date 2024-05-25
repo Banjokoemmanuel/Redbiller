@@ -3,10 +3,16 @@
         width: 87%;
     }
 
+    /* nav bar */
+    .inside-hamburger{
+        display: contents;
+        display: flex;
+    }
+
     .hamburger-cont{
         display: contents;
     }
-    
+
     .hamburger-cont i{
         display: contents;
     }
@@ -20,8 +26,7 @@
     }
 
     .hold-img-text {
-        flex-direction: column;
-        
+        flex-direction: column;   
     }
 
     .hero-section .image-container, .hero-section .text-btn-container {
@@ -101,6 +106,8 @@
         width: 87%;
     }
 
+    
+
     .hero-section .image-container, .hero-section .text-btn-container {
         width: 100%;
     }
@@ -123,6 +130,12 @@
 
     .bet-text{
         width: 100%;
+    }
+
+    /* inside hamburger on navbar */
+    .inside-hamburger{
+        display: contents;
+        display: flex;
     }
 
 

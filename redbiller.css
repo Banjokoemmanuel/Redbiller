@@ -127,6 +127,18 @@ header{
     /* display: none; */
 }
 
+/* inside hamburger */
+.inside-hamburger{
+    display: flex;
+    padding: 4.5rem 0 0.5rem 0;
+    display: none;
+}
+
+.in-ham-cont{
+    display: flex;
+    width: 100%;
+}
+
 /* hero section */
 .hero-section{
     width: 100%;

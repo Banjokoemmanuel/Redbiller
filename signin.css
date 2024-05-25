@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #212121; */
+    font-family: nunito;
+}
+
+body{
+    background-color: #181C32;
+}
+
+
+section{
+    /* background-color: #212121; */
+    padding: 0 0;
+}
+
+.container{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.cont-card{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card{
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.line-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.signin-cont h2{
+    color: #181C32;
+    font-size: 2rem;
+}
+
+.new-create-cont p{
+    color: #B7B8C3;
+    font-weight: bold;
+}
+
+.new-create-cont div{
+    color: #93120F;
+    font-weight: bold;
+}
+
+.line-1-half{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.new-create-cont{
+    display: flex;
+    gap: 0.2rem;
+}
+
+.logo-cont img{
+    height: 4rem;
+}
+
+.kindly-cont p{
+    font-size: 0.8rem;
+}
+
+.fa-lock{
+    color: #1BC5BD;
+}
+
+.lock-cont{
+    display: flex;
+    gap: 0.6rem;
+    padding: 0.4rem 1rem;
+    border-radius: 1rem;
+    background-color: #F5F5F5;
+}
+
+.line-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.line-3{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.user-cont{
+    font-weight: bold;
+}
+
+input{
+    padding: 0.5rem 0;
+}
+
+.user-input-cont input{
+    border-radius: 0.4rem;
+    border: 2px solid #F5F5F5;
+}
+
+.line-4{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.pass-cont{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.pass-cont p{
+    font-weight: bold;
+}
+
+.pass-cont div{
+    color: #93120E;
+    font-size: 0.9rem;
+}
+
+input{
+    width: 100%;
+}
+
+.pass-input-cont{
+    display: flex;
+}
+
+.pass-input-cont input{
+    border-top-left-radius: 0.4rem;
+    border-bottom-left-radius: 0.4rem;
+    border: 2px solid #F5F5F5;
+}
+
+.pass-input-cont button{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+    border: none;
+    padding: 0 0.5rem;
+    background-color: #F5F5F5;
+}
+
+.line-5{
+    display: flex;
+    justify-content: center;
+}
+
+.line-5 button{
+    background-color: #93120F;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 1rem 0;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+}
+
+.cont-card{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 4rem 0;
+}
+
+section{
+    /* border: 1px solid green; */
+    padding: 7rem 0 0 0;
+}
+
+@media (max-width: 1068px) {
+    .container{
+        width: 40%;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    .cont-card{
+        /* width: 100%; */
+    }
+}
+
+@media (max-width: 867px) {
+    .container{
+        width: 60%;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    .cont-card{
+        /* width: 100%; */
+    }
+}
+
+
+@media (max-width: 414px) {
+    .container{
+        width: 90%;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    .cont-card{
+        /* width: 100%; */
+    }
+}
