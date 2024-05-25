@@ -180,7 +180,7 @@ input{
 
 section{
     /* border: 1px solid green; */
-    padding: 7rem 0 0 0;
+    padding: 3rem 0 0 0;
 }
 
 @media (max-width: 1068px) {
@@ -223,5 +223,20 @@ section{
 
     .cont-card{
         /* width: 100%; */
+    }
+}
+
+
+@media (max-width: 333px) {
+    .container{
+        width: 95%;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    .cont-card{
+        width: 90%;
     }
 }
