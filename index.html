@@ -36,7 +36,7 @@
 
                 <!-- hamburber icon goes here -->
                 <div class="hamburger-cont">
-                    <i class="fa-solid fa-bars"></i>
+                    <i class="fa-solid fa-bars menu-icon"></i>
                 </div>
 
             </div>
@@ -330,6 +330,14 @@
 
     
 
+    <script>
+      let menuIcon = document.querySelector(".menu-icon");
+      let insideHamburger = document.querySelector(".inside-hamburger")
+
+      menuIcon.addEventListener("click", () => {
+        insideHamburger.classList.toggle("open-menu")
+      })
+    </script>
     
     
 </body>

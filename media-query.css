@@ -7,15 +7,16 @@
     .inside-hamburger{
         display: contents;
         display: flex;
+        position: fixed;
+        width: 100%;
+        background-color: #fff;
+        top: 70px;
     }
 
     .hamburger-cont{
-        display: contents;
+        display: block;
     }
 
-    .hamburger-cont i{
-        display: contents;
-    }
 
     .mid-nav{
         display: none;
@@ -136,6 +137,13 @@
     .inside-hamburger{
         display: contents;
         display: flex;
+
+    }
+
+    .hamburger-cont {
+        border: 2px solid red;
+        background-color: red;
+        
     }
 
 
