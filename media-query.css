@@ -1,6 +1,7 @@
 @media (max-width: 1068px) {
     .container {
         width: 87%;
+        
     }
 
     /* nav bar */
@@ -99,13 +100,18 @@
         width: 100%;
         /* border: 1px solid red; */
     }
+
+
 }
 
 
 @media (max-width: 414px) {
     .container {
         width: 87%;
+        
     }
+   
+    
 
     
 
@@ -143,7 +149,12 @@
     .hamburger-cont {
         /* border: 2px solid red; */
         /* background-color: red; */
-        
+    }
+    .hold3{
+        width: 100%;
+        display: flex;
+      
+
     }
 
 

@@ -7,6 +7,10 @@
     font-family: nunito;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 /* all list */
 ul{
     list-style-type: none;
